@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3500;
 const cors = require('cors');
 const corsOptions = require('./config/corsOptions');
 
-console.log(process.env.NODE_ENV, 'check env')
+
 connectDB();
 
 app.use(cors(corsOptions));
