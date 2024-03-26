@@ -1,0 +1,12 @@
+html {
+    font-family: 'Courier New', Courier, monospace;;
+    font-size: large;
+};
+
+body {
+
+    min-height: 100vh;
+    background-color: black;
+    color: antiquewhite;
+    place-content: center
+};
